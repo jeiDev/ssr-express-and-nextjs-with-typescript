@@ -1,9 +1,10 @@
+import 'dotenv/config'
 import express from 'express'
 import routes from './routes'
 import next from "next"
 
 const server = express()
-const app = next({dev: true})
+const app = next({dev: !["production"].includes(`${process.env.NODE_ENV}`)})
 const port = 8000;
 
 app.prepare().then(() => {
