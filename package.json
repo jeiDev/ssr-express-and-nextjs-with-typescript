@@ -7,7 +7,15 @@
     "build": "tsc --build && next build",
     "dev": "nodemon ./src/index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "react",
+    "nextjs",
+    "reactjs",
+    "express",
+    "ssr",
+    "server-side-rendering"
+  ],
   "author": "jeiDevp",
   "license": "ISC",
   "dependencies": {

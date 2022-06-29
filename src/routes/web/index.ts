@@ -1,7 +1,7 @@
 import { Router } from "express"
 import { Application } from "express"
 import { NextConfig } from "next"
-import homeController from "../controllers/web/home.controller"
+import homeController from "../../controllers/web/home.controller"
 
 const router = Router();
 
